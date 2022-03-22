@@ -10,7 +10,7 @@ var listed = document.getElementById("listed");
 
 var settings = {
     "async": true,
-    "scrossDomain": true,
+    "crossDomain": true,
     "url": "https://api-mainnet.magiceden.dev/v2/collections/thugkeez/stats",
     "method": "GET",
     "headers": {}
